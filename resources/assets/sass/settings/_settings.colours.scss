@@ -1,0 +1,39 @@
+$text-grey: rgba(#fff, 0.6);
+$light-grey: #F5F5F6;
+$text: #000;
+$black: #000;
+$white: #fff;
+$blue: #00ADEE;
+$dark-grey: #1A1A21;
+$green: #07C604;
+$bg-color: #1D1D24;
+$title-color: #2B2C36;
+$header-color: #C0C1C8;
+$input-color: #ccc;
+$input-border: #DFE0E3;
+$button-hover: darken($blue, 10%);
+
+$yellow: #F0B237;
+
+$grey-border: rgba(96, 97, 105, 0.53);
+$grey-medium: rgba(black, 0.2);
+$dark-grey: #1A1A21;
+$grey-darker: darken($dark-grey, 2%);
+
+$base-transition: 200ms ease;
+
+
+$brand-primary: #0072bb;
+$brand-secondary: #37a3eb;
+
+.bg-brand-primary {
+  background-color: $brand-primary;
+  color: white;
+}
+.bg-brand-primary:hover{
+  color: white;
+}
+
+.text-brand-primary {
+  color: $brand-primary
+}

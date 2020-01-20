@@ -1,0 +1,23 @@
+$border-radius: 3px;
+$border-radius-large: 16px;
+$form-border-radius: 10px;
+$input-border-radius: 40px;
+$form-default: 30px;
+$form-logo-width: 120px;
+$medium-image: 250px;
+$large-logo: 300px;
+
+$headerHeightXl: 80px;
+$headerHeightSm: 70px;
+
+$sidebarNavWidth: 250px;
+$sidebarToolsWidth: 340px;
+$layoutGutter: 20px;
+$layoutGutterTablet: 60px;
+
+$mq-breakpoints: (
+  mobile:  320px,
+  tablet:  740px,
+  desktop: 980px,
+  wide:    1200px
+);
