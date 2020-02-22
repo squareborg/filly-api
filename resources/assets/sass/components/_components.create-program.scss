@@ -1,0 +1,31 @@
+.create-program {
+  min-height: 500px;
+
+}
+
+.create-program .program-title {
+  background-color: #0b2e13;
+  color: white;
+  line-height: 1.75;
+  padding: 4px 8px;
+  font-size: 2em;
+  align-self: start;
+  margin-bottom: 5px;
+}
+
+.create-program .btn {
+  align-self: end;
+}
+
+.create-program input {
+  opacity: 0.95;
+}
+
+.stat-card h3 {
+  font-size: 1em;
+  color: #949494;
+}
+
+.stat-card .score {
+  font-size: 2em;
+}

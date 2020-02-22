@@ -1,0 +1,18 @@
+.bg-dark-grey { background-color: $dark-grey; }
+
+.bg-coming-soon {
+  background: #1D1D21 url('/images/bg-auth2.jpg') center center;
+  background-size: cover;
+}
+
+.bg-auth {
+  background: #1D1D21 url('/images/bg-auth2.jpg') right center;
+  background-size: cover;
+}
+
+.fc-white { color: $white; }
+.fc-black { color: $black; }
+.fc-dark-grey { color: $dark-grey; }
+.fc-off-white {
+  color: rgba(#fff, 0.5);
+}
