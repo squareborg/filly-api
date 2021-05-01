@@ -1,0 +1,24 @@
+/node_modules
+/public/hot
+/public/storage
+/vendor
+/.idea
+/.vscode
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.env
+.phpunit.result.cache
+public/js/app.js
+resources/assets/js/app.js
+public/js/app.js
+public/js/app.js.map
+public/js/app.js.map
+public/css/app.css
+
+.DS_Store
+fiily.code-workspace
+# storage/oauth-private.key
+# storage/oauth-public.key

@@ -1,0 +1,20 @@
+html, body {
+  height: 100vh;
+  margin: 0;
+  font-size: $global-font-size;
+  color: $text;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  padding: 0;
+  font-size: 12pt;
+  //background: rgba(71,75,90,1);
+  //background: linear-gradient(135deg, rgba(71,75,90,1) 0%, rgba(40,41,50,1) 100%);
+}
+
+
+.breadcrumb {
+  padding: .50rem 0.5rem;
+}

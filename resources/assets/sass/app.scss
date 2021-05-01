@@ -1,0 +1,76 @@
+@import '../../../node_modules/sass-mq/mq';
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+@import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
+@import '../../../node_modules/bootstrap/dist/css/bootstrap-grid.css';
+@import '../../../node_modules/bootstrap/dist/css/bootstrap-reboot.css';
+
+
+//// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+@import 'bootstrap4-switch';
+
+
+
+
+@tailwind preflight;
+
+// Settings
+@import "settings/settings.colours";
+@import "settings/settings.sizing";
+@import "settings/settings.typography";
+
+// Elements
+@import "elements/elements.page";
+@import "elements/elements.form";
+@import "elements/elements.typography";
+@import "elements/elements.links";
+@import "elements/elements.vue";
+
+
+
+@import "components/components.auth";
+@import "components/components.validation";
+@import "components/components.modal.auth";
+@import "components/components.xfil-card";
+@import "components/components.stat-card";
+@import "components/components.create-program";
+@import "components/components.switch";
+
+@import "vendor/trix";
+@tailwind utilities;
+
+@import "utilities/utilities.colour";
+@import "utilities/utilities.alignment";
+@import "utilities/utilities.spacing";
+@import "utilities/utilities.sizing";
+@import "utilities/utilities.flex";
+@import "utilities/utilities.overlay";
+
+body{
+  background-color: #fff;
+}
+
+
+
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+thead {
+  background-color: #f4f4f4;
+  color: black;
+}
+
+.btn-primary, .btn-primary:hover {
+    background-color: $brand-primary;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #37a3eb;
+}
